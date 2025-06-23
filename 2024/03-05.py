@@ -20,7 +20,6 @@ for packet in lines:
         if (10, 0, 0, 0) <= ip <= (10, 0, 254, 254):
             is_wifi = True
 
-    print(f"{length=} {source=} {dest=} {is_internal=} {is_wifi=}")
     if is_internal:
         internal_bytes += length
     if is_wifi:
