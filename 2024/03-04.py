@@ -15,5 +15,5 @@ for line in lines:
 
     prices[name] += price
 
-answer1 = min(prices.values())
-print(answer1)
+answer = min(prices.values())
+print(answer)
